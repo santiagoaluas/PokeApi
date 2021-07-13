@@ -62,7 +62,7 @@ export class PokemosComponent implements OnInit {
       this.pokemon.nombre = resp.name;
       this.pokemon.ancho = resp.weight;
       this.pokemon.alto = resp.height;
-      this.pokemon.foto = resp.sprites.front_default;
+      this.pokemon.foto = resp.sprites.front_default; 
     })
   }
 }
